@@ -1,5 +1,5 @@
 {
-    "name": "xynnn/google-tag-manager-bundle",
+    "name": "electrolutz/google-tag-manager-bundle",
     "type": "symfony-bundle",
     "description": "Google Tag Manager Bundle for Symfony 2",
     "keywords": ["Google Tag Manager", "Tag Manager"],
