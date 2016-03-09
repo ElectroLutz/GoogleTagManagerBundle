@@ -67,7 +67,7 @@ class GoogleTagManagerExtension extends Twig_Extension
         return $twig->render(
             'GoogleTagManagerBundle::tagmanager.html.twig', array(
                 'id' => $helper->getId(),
-                'data' => $helper->hasData() ? $helper->getData() : null
+                'data' => $helper->hasData() ? $helper->getData() : array()
             )
         );
     }
