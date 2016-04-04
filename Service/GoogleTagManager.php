@@ -34,6 +34,14 @@ class GoogleTagManager
     {
         $this->data[$key] = $value;
     }
+    
+    /**
+     * @param array $data
+     */
+    public function setData(array $data)
+    {
+        $this->data = $data;
+    }
 
     /**
      * @return bool
